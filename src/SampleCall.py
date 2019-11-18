@@ -11,7 +11,7 @@ class SampleRestClient():
         print("body 2 is", response.text)
         responseJson = response.json()
         print("Response is:", responseJson)
-        print("new id is", responseJson['data']['name'])
+        print("name is", responseJson['data']['name'])
         
     def makePostCall(self):
         print("Making POST Rest call")
